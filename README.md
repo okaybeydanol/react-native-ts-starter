@@ -56,7 +56,6 @@ Before you begin, ensure you have the following installed:
    npx pod-install
    ```
 5. **Start Project**
-    Update the name in package.json and the name and displayName in app.json. Then, run:
    ```bash
    npm run start
    ```
