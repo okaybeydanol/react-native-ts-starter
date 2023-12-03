@@ -5,6 +5,7 @@
   "scripts": {
     "start": "react-native start --reset-cache",
     "android": "react-native run-android",
+    "rename": "rm -rf ios android && react-native eject && npx react-native-asset",
     "ios": "react-native run-ios",
     "start:ios": "./start-ios.sh",
     "start:android": "./start-android.sh",
@@ -26,6 +27,7 @@
     "react": "18.2.0",
     "react-i18next": "^13.5.0",
     "react-native": "0.72.7",
+    "react-native-eject": "^0.2.0",
     "react-native-gesture-handler": "^2.14.0",
     "react-native-haptic-feedback": "^2.2.0",
     "react-native-reanimated": "^3.6.1",
