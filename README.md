@@ -42,6 +42,7 @@ Before you begin, ensure you have the following installed:
    npm install or yarn install
    ```
 3. **Rename the Project**
+    
     Update the name in package.json and the name and displayName in app.json. Then, run:
    ```bash
    npm run rename
@@ -49,6 +50,7 @@ Before you begin, ensure you have the following installed:
    This command will execute: rm -rf ios android && react-native eject && npx react-native-asset
 
 4. **iOS Specific Setup**
+    
     Modify info.plist and set UIViewControllerBasedStatusBarAppearance to true.
    ```bash
    npx pod-install
