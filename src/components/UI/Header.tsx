@@ -121,12 +121,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   left: {
+    position: 'absolute',
     zIndex: 1,
     justifyContent: 'center',
+    height: '100%',
   },
   right: {
+    position: 'absolute',
     zIndex: 1,
     justifyContent: 'center',
+    height: '100%',
+    right: 0,
   },
 });
 
